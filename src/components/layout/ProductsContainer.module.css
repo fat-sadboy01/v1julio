@@ -1,0 +1,30 @@
+.productsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 400px;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.productsContainer .descricao {
+    color: #319421;
+    font-size: 16px;
+    height: 40px;
+    border-top: #319421 solid 4px;
+    padding: 10px 0 10px 0px;
+}
+
+.productsContainer .descricao:hover {
+    background-color: #c6c6c6;
+}
+
+.productsContainer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.productsContainer li {
+    list-style-type: none;
+}
